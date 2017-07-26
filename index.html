@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>FinnApp</title>
+
+    <!-- Facebook Open Graph meta -->
+    <meta property="og:url"           content="https://appsto.re/au/DsAhib.i" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="Finn AI" />
+    <meta property="og:description"   content="A money tracker you can talk to" />
+    <meta property="og:image"         content="http://finnapp.com/img/main__logo.png" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"> -->
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet" type="text/css">
+
+    <!-- Other CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" href="img/finn__icon.png"/>
+  </head>
+  <body id="background">
+    <!-- Facebook stuff -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.9";
+      fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <div class="content">
+        <div class="content__phone">
+          <img src="img/main_image.png" class="img-fluid" alt="phone demo image" />
+        </div>
+        <div class="content__other">
+          <img src="img/main__logo.png" class="img-fluid" alt="finn logo"/>
+          <h2>A money tracker <br/> you can talk to</h2>
+          <div class="content__buttons">
+            <a class="content__apple" href="https://itunes.apple.com/us/app/finn/id1209902237?mt=8" ><img src="img/main__get.png" alt="download on app store"></a>
+            <a class="btn btn-primary content__watch" href="#myModal" role="button" data-toggle="modal"><span class="content__triangle"></span> Watch Video</a>
+          </div>
+          <!-- Modal HTML -->
+          <div id="myModal" class="modal fade">
+              <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="modal__close" data-dismiss="modal" aria-hidden="true">X</button>
+                    </div>
+                    <div class="modal-body">
+                        <iframe id="finnVideo" width="853" height="480" src="https://www.youtube.com/embed/2xPb5nOTfMo?rel=0&wmode=transparent" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+    </div>
+    <div class="footer">
+      <img src="img/share_emoticons.png" class="img-fluid" alt="share emoticons" />
+      <p>(Share with your friends)</p>
+      <span class="footer__social">
+        <!-- <div class="fb-share-button" data-href="https://appsto.re/au/DsAhib.i" data-mobile-iframe="false"> -->
+        <div data-href="https://appsto.re/au/DsAhib.i" data-mobile-iframe="true">
+          <a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fappsto.re%2Fau%2FDsAhib.i&amp;src=sdkpreparse">
+            <img src="img/Facebook-color.svg" class="img-fluid footer__icon" alt="facebook logo" />
+          </a>
+        </div>
+        <a class="twitter-share-button" data-js="twitter-share" href="#">
+          <img src="img/Twitter-color.svg" class="img-fluid footer__icon" alt="twitter logo"/>
+        </a>
+      </span>
+    </div>
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+
+  </body>
+</html>

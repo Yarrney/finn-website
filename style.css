@@ -1,0 +1,154 @@
+/*******************************************
+* DECLARE LESS VARIABLES
+*******************************************/
+/*******************************************
+* BASE RULES
+/*******************************************/
+body {
+  font-family: 'Muli', sans-serif;
+}
+/*******************************************
+* LAYOUT RULES
+/*******************************************/
+#background {
+  width: 100%;
+  background-color: #CFEED4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content {
+  padding: 0.5rem;
+}
+.footer {
+  background-color: white;
+  min-height: 8rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/*******************************************
+* MODULE RULES: OTHER
+/*******************************************/
+.content__other {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content__other > * {
+  padding-bottom: 2rem;
+}
+.content__buttons {
+  display: flex;
+  flex-direction: column;
+}
+.content__apple {
+  padding-bottom: 0.5rem;
+}
+.content__watch {
+  height: 57px;
+  width: 193px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #944343;
+  border-color: #7b3737;
+}
+.content__triangle {
+  width: 0;
+  height: 0;
+  border-top: 0.5rem solid transparent;
+  border-left: 1.1rem solid white;
+  border-bottom: 0.5rem solid transparent;
+  padding-left: 0.8rem;
+}
+/* OTHER: STATE RULES */
+.content__watch:hover,
+.content__watch:active {
+  background-color: #B0E0E6;
+  border-color: #B0E0E6;
+}
+.content__watch:focus {
+  color: white;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+/*******************************************
+* MODULE RULES: MODAL
+/*******************************************/
+.modal-dialog {
+  width: 50rem;
+  max-width: 100%;
+  margin: auto;
+  padding: 0;
+}
+.modal-content {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: transparent;
+  border: none;
+  outline: none;
+  height: auto;
+  min-height: 100%;
+  width: 50rem;
+  max-width: 100%;
+  border-radius: 0;
+}
+.modal-content iframe {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.modal-header {
+  padding: 0;
+  border: none;
+}
+.modal-body {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+.modal-body iframe,
+.modal-body object,
+.modal-body embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.modal__close {
+  color: white;
+  background: none;
+  border: none;
+}
+.modal__close:hover,
+.modal__close:active {
+  color: #B0E0E6;
+}
+/*******************************************
+* MODULE RULES: FOOTER
+/*******************************************/
+.footer {
+  padding-top: 2em;
+}
+.footer__social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.footer > * {
+  padding-bottom: 1em;
+}
+.footer__icon {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  border: none;
+  backgroud: none;
+}

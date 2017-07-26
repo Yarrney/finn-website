@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="64px" height="63px" viewBox="0 0 64 63" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Facebook-color</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-v4" transform="translate(-606.000000, -613.000000)" fill="#4460A0">
+            <g id="share" transform="translate(0.000000, 580.000000)">
+                <g id="share__content" transform="translate(245.000000, 23.000000)">
+                    <g id="Share__Social" transform="translate(361.000000, 10.000000)">
+                        <path d="M33.7960137,63 L3.49216882,63 C1.56293214,63 0,61.4428389 0,59.5226662 L0,3.47708939 C0,1.55642774 1.56317765,0 3.49216882,0 L59.780804,0 C61.7093041,0 63.2727273,1.55642774 63.2727273,3.47708939 L63.2727273,59.5226662 C63.2727273,61.4430834 61.7090586,63 59.780804,63 L43.6572661,63 L43.6572661,38.602928 L51.881687,38.602928 L53.1131774,29.0949561 L43.6572661,29.0949561 L43.6572661,23.0247168 C43.6572661,20.2719396 44.4249834,18.3960127 48.3895182,18.3960127 L53.4460922,18.3938126 L53.4460922,9.88980634 C52.5715769,9.77393595 49.5699419,9.51506098 46.0777731,9.51506098 C38.7872815,9.51506098 33.7960137,13.9460032 33.7960137,22.0830866 L33.7960137,29.0949561 L25.5504787,29.0949561 L25.5504787,38.602928 L33.7960137,38.602928 L33.7960137,63 L33.7960137,63 Z" id="Facebook"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
